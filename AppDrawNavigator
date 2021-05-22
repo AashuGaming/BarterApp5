@@ -1,0 +1,14 @@
+const AppDrawNavigator = createDrawerNavigator({
+    Home : {
+        screen : TabNavigator
+    },
+    Settings : {
+        screen : SettingScreen
+    }
+}
+{
+    contentComponent:customSidebarMenu
+},
+{
+    initialRouteName : 'Home'
+})
